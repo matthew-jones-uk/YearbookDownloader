@@ -11,7 +11,8 @@ This is a simple Python program to download photos and the people tagged in them
 
 For this I'll be using Google Chrome/Chromium, other browsers may be similar.
 
-* **Step 1**: Login to www.yearbook.com
+* **Step 0**: Install Python dependencies.
+* **Step 1**: Login to www.yearbook.com.
 * **Step 2**: On the top-left, next to the address bar, click on the padlock icon.
 * **Step 3**: Click cookies > yearbook.com > Cookies > PHPSESSID. Copy the content value. It should be a string that looks something like: ```ebepdn6adf6dh5c24pdhas9b59```.
 * **Step 4**: In ```main.py``` replace the cookies PHPSESSID with your value. It should look similar to this:
